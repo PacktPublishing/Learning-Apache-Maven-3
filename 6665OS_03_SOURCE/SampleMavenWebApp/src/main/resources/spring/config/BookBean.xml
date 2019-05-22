@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+	<bean id="bookAction" class="com.packt.maven.action.BookAction">
+		<property name="bookBo" ref="bookBo"/>
+	</bean>
+ 
+   	<bean id="bookBo" class="com.packt.maven.bo.impl.BookBoImpl" >
+   		<property name="bookDao" ref="bookDao" />
+   	</bean>
+ 
+   	<bean id="bookDao" 
+                class="com.packt.maven.dao.impl.BookDaoImpl" >
+   		<property name="sessionFactory" ref="sessionFactory"></property>
+   	</bean>
+ 
+</beans>

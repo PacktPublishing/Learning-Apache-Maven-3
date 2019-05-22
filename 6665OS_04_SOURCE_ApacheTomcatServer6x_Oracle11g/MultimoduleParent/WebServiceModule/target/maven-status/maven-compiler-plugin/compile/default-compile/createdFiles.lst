@@ -1,0 +1,6 @@
+com/packt/maven/bo/BookBo.class
+com/packt/maven/dao/impl/BookDaoImpl.class
+com/packt/maven/model/Book.class
+com/packt/maven/ws/BookWS.class
+com/packt/maven/bo/impl/BookBoImpl.class
+com/packt/maven/dao/BookDao.class

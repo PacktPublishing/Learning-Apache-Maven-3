@@ -1,0 +1,3 @@
+com/packt/maven/dao/BookDao.class
+com/packt/maven/dao/impl/BookDaoImpl.class
+com/packt/maven/dao/App.class

@@ -1,0 +1,9 @@
+com/packt/maven/ws/FindAllBook.class
+com/packt/maven/ws/Book.class
+com/packt/maven/ws/BookWSService.class
+com/packt/maven/ws/BookWS.class
+com/packt/maven/ws/package-info.class
+com/packt/maven/ws/bo/impl/BookBoImpl.class
+com/packt/maven/ws/bo/BookBo.class
+com/packt/maven/ws/ObjectFactory.class
+com/packt/maven/ws/FindAllBookResponse.class

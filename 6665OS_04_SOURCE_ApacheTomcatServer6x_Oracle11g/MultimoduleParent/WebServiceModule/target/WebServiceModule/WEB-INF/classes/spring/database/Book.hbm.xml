@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 20 Julai 2010 11:40:18 AM by Hibernate Tools 3.2.5.Beta -->
+<hibernate-mapping>
+    <class name="com.packt.maven.model.Book" 
+		table="book" catalog="JIPADMIN">
+        <id name="bookId" type="java.lang.Long">
+            <column name="BOOK_ID" />
+            <generator class="native"><param name="sequence">sq_id_admin</param></generator>
+
+        </id>
+        <property name="name" type="string">
+            <column name="NAME" length="45" not-null="true" />
+        </property>
+        <property name="authorName" type="string">
+            <column name="AUTHOR_NAME" length="45" not-null="true" />
+        </property>
+        <property name="price" type="string">
+            <column name="PRICE" length="255" not-null="true"/>
+        </property>
+        <property name="issuedDate" type="timestamp">
+            <column name="ISSUED_DATE" length="19" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
